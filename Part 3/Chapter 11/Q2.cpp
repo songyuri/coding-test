@@ -14,7 +14,7 @@ int main()
 	}
 
 	for (int i = 0; i < count; i++) {
-		if (arr[i] == 0 || arr[i] == 1) { // 0이 맨 앞에 있는 경우
+		if (arr[i] == 0 || arr[i] == 1) {
 			sum += arr[i];
 		}
 		else {
